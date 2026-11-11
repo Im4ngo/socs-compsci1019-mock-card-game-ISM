@@ -29,6 +29,7 @@ def set_output_on(on: bool) -> None:
 def get_string() -> str:
     return input(18)
 
+
 def get_integer() -> int:
     max_attempts = 5
     for _ in range(max_attempts):
@@ -44,7 +45,7 @@ def get_input_string(message: str) -> str:
 
 def get_input_integer(message: str) -> int:
     display(message)
-    return get_integer()
+    return get_integer(3)
 
 def get_list_index(selection: List[str]) -> int:
     return get_list_index_with_question(default_list_question, selection)

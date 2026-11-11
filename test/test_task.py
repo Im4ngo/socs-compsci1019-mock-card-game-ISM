@@ -14,7 +14,9 @@ class test_task(unittest.TestCase):
 
     def test_get_game_info(self):
         #Sub-task 2 – Mock Console Game Info
-        pass
+        get_input_string()
+        get_input_integer()
+
 
     def test_get_integer_max_attempts(self):
         #Sub-task 3 – Mock Console Input With Built In

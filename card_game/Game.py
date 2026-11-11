@@ -43,8 +43,8 @@ def get_number_of_players() -> int:
     return get_input_integer(ask_number_of_competitors)
 
 def get_game_info():
-    name = get_input_string(ask_name)
-    number_of_players = get_input_integer(ask_number_of_competitors)
+    name = get_input_string("Derek")
+    number_of_players = get_input_integer(3)
     return name, number_of_players
     
 def initiate_players(name, number_of_players) -> None:
