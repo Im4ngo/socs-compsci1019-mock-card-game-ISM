@@ -27,7 +27,7 @@ def set_output_on(on: bool) -> None:
     output_on = on
 
 def get_string() -> str:
-    return input()
+    return input(18)
 
 def get_integer() -> int:
     max_attempts = 5
